@@ -3,10 +3,6 @@
 
 https://foundark.me/
 
-## Project Video URL 
-
-**Task:** Provide the link to your youtube video. Please make sure the link works. 
-
 ## Project Description
 
 A PvP guide for the popular MMORPG game Lost Ark. Users can sign up and design their own build guides with an interface specially designed to mimic the in-game ability selection UI. Users can input a title, description, the set of abilities they like on their specific class and upload their guide to the site. Users can also view other guides to see others' selected abilities/stats and tips/tricks for specific classes. Viewers are able to like their favourite guides for the variety of classes. 
@@ -37,34 +33,3 @@ Nginx config file is updated with a proxy leading to the frontend port and a rou
 After nginx configuration, a proxy is added to the frontend and after a production build is complete, the folder is copied onto the VM with rsync
 The frontend and backend run on a process manager named pm2 for a deployed application.
 
-## Maintenance
-
-Using the process manager pm2, it was made sure that everything was running smoothly and not overloading the system. The manager had system status that would be useful to make sure everything is working, and the logs for both pm2 and nginx came in handy to identify any issues in the deployment stage.
-
-## Challenges
-
-1. Graphql and MongoDB querying to get the right build options for the specific classes in a dynamic manner
-2. Deployment with Digital Ocean VM and nginx with secure connection and proxying
-3. Learned graphql subscriptions for the purpose of long polling (not in production)
-
-## Contributions
-
-**Sameer Khan**
-+ Express setup
-+ MongoDB database schema design, configuration, and updates through graphql resolvers
-+ GraphQL resolvers and schema for the guides, users, and likes
-+ Written queries for graphql to be used by Apollo client
-+ Apollo client and api setup
-+ Frontend interactions for sign up/sign in
-+ All of deployment on Digital Ocean with nginx
-
-**Sangwook Lee**
-+ Frontend routing and components
-+ Frontend design and implementation
-+ GraphQl subscriptions for guide comments (not in production due to instability)
-+ Express server with Apollo middleware setup
-+ Developed dynamic form inputs for guide posting
-+ Websocket link setup for subscriptions
-
-# One more thing? 
-For the project we attempted long polling for the comments section using GraphQL subscriptions, which was the method in which we could poll for comments intermittently in response to when a user posted a comment. We had a full frontend for comments for the guides and users could add comments on the guides they chose. The comments are meant to display real time as they are posted. We had most of the code setup but due to some instability we were unable to put it into production. The code is in the develop branch.
