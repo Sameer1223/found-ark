@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "foundark",
+        "MONGO_PASSWORD": "lostarkpvpguides",
+        "MONGO_DB": "FoundArk",
+        "TOKEN_SECRET":"de9fb64a071260e91886bce2d55998ea37b057c9555a6e88d2a90afa11ebb2be1b9a598394b213917faad09cc3fce4acaa0f0d9c7b291188cd15a494733c4c95"
+    }
+}

@@ -1,0 +1,67 @@
+.Modal {
+    position: absolute;
+    width: inherit;
+    height: 210px;
+    z-index: 9;
+    top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.Form--modal {
+    background-color: #303030;
+    width: 285px;
+    padding: 0px 15px 0px 15px;
+}
+  
+.Form {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.Form__signIn {
+    font-size: calc(2vmin);
+    padding: 15px 0px 15px 0px;
+}
+
+.Form__input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #222;
+    border: none;
+    color: aliceblue;
+}
+
+.Form__textarea {
+    width: 800px;
+    height: 200px;
+    border: 1px solid aliceblue;
+}
+
+.Form__submit {
+    width: 70px;
+    padding: 7px;
+    margin: 0px 5px 5px 5px;
+    align-self: flex-end;
+    background-color: gray;
+    border-radius: 3px;
+    border: none;
+    color: aliceblue;
+}
+
+.Form__submit--center {
+    align-self: center;
+}
+
+#status_message {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.signout {
+    height: 140px;
+}

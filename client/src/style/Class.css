@@ -1,0 +1,97 @@
+.Builds {
+    width: 1000px;
+    background-color: #3C414D;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.FilterBar .Filter {
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.FilterBar .Label {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.FilterBar .Unselected {
+    background-color: 3C414D;
+}
+
+.FilterBar .Selected {
+    background-color: #3A38A4;
+}
+
+.Preview {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    background-color: #71789D;
+    height: 120px;
+}
+
+.Preview .Gamemode {
+    width: 120px;
+    justify-self: flex-start;
+    align-self: flex-end;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Preview .TDM {
+    background-color: #D03939;
+}
+
+.Preview .TE {
+    background-color: #4539D0;
+}
+
+.Preview .D {
+    background-color: #1EDC1A;
+}
+
+.Preview .Content {
+    height: inherit;
+    width: 1000px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.Content .Text {
+    padding: 8px 0px 8px 0px;
+    font-weight: bold;
+}
+
+.Content .Title {
+    height: 80px;
+    align-self: flex-end;
+    font-size:xx-large;
+    margin-left: 50px;
+
+}
+
+.Preview .Score {
+    justify-self: end;
+    height: inherit;
+    width: 160px;
+    background-color: #3F3F3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Score .Like {
+    height:50px;
+}

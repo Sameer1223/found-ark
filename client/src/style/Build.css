@@ -1,0 +1,110 @@
+.Boc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Boc__stats {
+    width: 300px;
+    background-color: #3C414D;
+    height: 764px;
+}
+
+.Boc__abilities {
+    width: 690px;
+    background-color: #525470;
+    height: 764px;
+}
+
+.Boc__stats .Border {
+    margin: 15px;
+    width: 270px;
+    height: 729px;
+    border: 2px solid #6F6F6F;
+    display: flex;
+    flex-direction: column;
+}
+
+.Border .Container {
+    overflow: hidden;
+    width: 270px;
+    height: 445px;
+    display: flex;
+    justify-content: center;
+}
+
+.Container .Image {
+    height: 100%;
+}
+
+.Border .Stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 244px;
+    width: 270px;
+    margin-top: 20px;
+}
+
+.Stats .Stats__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Stats__row .Stat__input {
+    width: 30px;
+    background-color: #6F6F6F;
+}
+
+.Boc__abilities .Ability {
+    background-color: #525470;
+    margin-top: 4px;
+    height: 76px;
+    box-shadow: 0px 2px 4px #3C414D;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ability__img {
+    flex: 0.07;
+    background-color: #6F6F6F;
+    height: 45px;
+    border-radius: 30px;
+    margin-left: 8px;
+}
+
+.Ability__name {
+    flex: 0.33;
+}
+
+.Ability__lvl {
+    flex: 0.15;
+}
+
+.Ability__tripod {
+    flex: 0.15;
+}
+
+.Ability__input {
+    width: 70%;
+    background-color: #6F6F6F;
+}
+
+.FilterBar .Filterbar--left {
+    flex: 0.07;
+    padding-left: 8px;
+}
+
+.Dropdown {
+    width: auto;
+    background-color: #6F6F6F;
+}
+

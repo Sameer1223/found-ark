@@ -1,0 +1,21 @@
+.Banner {
+    width:100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner .Image {
+    width: 100%;
+    opacity: 63%;
+    align-self: baseline;
+}
+
+.Banner .Title {
+    font-size: calc(40px + 2vmin);
+    position: absolute;
+    text-align: center; 
+}
